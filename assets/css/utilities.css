@@ -1,0 +1,51 @@
+/* background colors */
+.bg-deeppink{background-color: var(--deep-pink-color);}
+.bg-lightpink{background-color: var(--light-pink-color)!important;}
+.bg-lightgrey{background-color: var(--light-grey-color);}
+
+/* font */
+.fw-100{font-weight: 100;}
+.fw-200{font-weight: 200;}
+.fw-300{font-weight: 300;}
+.fw-400{font-weight: 400;}
+.fw-500{font-weight: 500;}
+.fw-600{font-weight: 600;}
+.fw-700{font-weight: 700;}
+.fw-800{font-weight: 800;}
+.fs-16{font-size: 16px;}
+.fs-17{font-size: 17px;}
+.fs-18{font-size: 18px;}
+.fs-20{font-size: 20px;}
+.fs-25{font-size: 25px;}
+
+/* text colors */
+.text-grey{color: #666666;}
+.text-scarletred{color: var(--scarlet-red-color);}
+.text-exlightgrey{color: var(--ex-grey-color);}
+
+/* box shadow */
+.shadow{
+    box-shadow: var(--shadow)!important;
+}
+
+/* buttons */
+.btn-red{
+    background: linear-gradient(89.73deg, #D2102F 3.79%, rgba(210, 16, 47, 0) 125.26%);
+    background-color: rgba(148, 31, 50, 1);
+    color: var(--white-color);
+    border-radius: 2px;
+    padding: 7px 34px;
+    font-size: 18px;
+    transition: var(--transition);
+}
+.btn-red:hover{
+    color: var(--white-color);
+    opacity: 0.9;
+}
+
+/* line */
+.line{
+    width: 75%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 1px;
+}
